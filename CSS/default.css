@@ -1,0 +1,29 @@
+.clearfix::after{
+    display: block;
+    float: none;
+    content: "";
+    clear: both;
+    overflow: auto;
+}
+
+
+/*              base
+
+.esquerda{
+    float: left;
+}
+
+.direita{
+    float: left;
+    text-align: right;
+}
+
+.centro{
+    text-align: center;
+}
+
+.metade{
+    width: 50%;
+} 
+
+*/

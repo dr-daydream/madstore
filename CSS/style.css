@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Montserrat:wght@100;200;300;400&family=Roboto+Condensed:wght@300&display=swap');
+
+
+
+body{
+    background-color: white;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: var(--cor0);
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+}
+
+nav ul{
+    display: block;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    border-bottom: solid 5px white;
+    padding: 6px 6px;
+}
+
+section{
+    height: 100%;
+    min-height: 250px;
+    width: 100%;
+}
+
+
+h1{
+    font-size: 50px;
+    text-decoration: bold;
+    padding: 10px;
+}
+
+.packets{
+    margin-top: 10px;
+    height: 300px;
+    text-align: center;
+    font-size: 80px;
+    background-color: #f3f3f3;
+}
+
+.pictures{
+    height: 1400px;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.packets, .pictures, .artpic, .customs{
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    left: -500px;
+    bottom: 50px;
+}
+
+img{
+    padding: 10px;
+}
+
+section img:hover{
+    border: solid 2px rgba(26, 24, 24, 0.753);
+    padding: 10px;
+}
+
+#quadros img{
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+#personalizados{
+    margin-top: 10px;
+    height: 1100px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+#personalizados div img{
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+#author{
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    padding: 15px 5px 10px 5px;
+}
+
+:root{
+    --cor0:#1E4BEB;
+    --cor1:#1F46D1;
+    --cor2:#0E1F5C;
+    --fonte0: font-family: 'Bebas Neue', cursive;
+    --fonte1: font-family: 'Montserrat', sans-serif;
+    --fonte2: font-family: 'Roboto Condensed', sans-serif;
+    --fonte3: font-family: 'Indie Flower', cursive;
+}
